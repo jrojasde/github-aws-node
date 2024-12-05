@@ -28,6 +28,7 @@ jobs:
         script: |
           export NVM_DIR=~/.nvm
           source ~/.nvm/nvm.sh
+          ls /home/ubuntu
           cd /home/ubuntu/github-aws-node
           git stash
           git pull origin main

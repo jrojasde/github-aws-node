@@ -23,3 +23,18 @@ nvm install --lts
 node --version
 
 npm -v
+
+
+ssh-keygen -t ed25519
+
+
+# pm2 
+
+npm install -g pm2
+
+pm2 start app.js
+
+pm2 save 
+
+
+pm2 startup
